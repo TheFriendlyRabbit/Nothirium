@@ -46,7 +46,7 @@ public class CensoredASM {
     }
 
     public static void activateChunkSprites() {
-        if(!LOADED)
+        if(!LOADED || ChunkRenderManager.getRenderer() == null)
             return;
         for(IRenderChunk c : ChunkRenderManager.getRenderer().getRenderChunks()) {
             for(TextureAtlasSprite sprite : c.getVisibleTextures()) {
