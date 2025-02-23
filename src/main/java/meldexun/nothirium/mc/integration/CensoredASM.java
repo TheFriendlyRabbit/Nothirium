@@ -7,16 +7,16 @@ import meldexun.nothirium.mc.vertex.ExtendedBufferBuilder;
 import net.minecraft.client.renderer.chunk.CompiledChunk;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraftforge.fml.common.Loader;
-import zone.rong.loliasm.client.sprite.ondemand.IAnimatedSpriteActivator;
-import zone.rong.loliasm.client.sprite.ondemand.IAnimatedSpritePrimer;
-import zone.rong.loliasm.client.sprite.ondemand.IBufferPrimerConfigurator;
-import zone.rong.loliasm.client.sprite.ondemand.ICompiledChunkExpander;
+import mirror.normalasm.client.sprite.ondemand.IAnimatedSpriteActivator;
+import mirror.normalasm.client.sprite.ondemand.IAnimatedSpritePrimer;
+import mirror.normalasm.client.sprite.ondemand.IBufferPrimerConfigurator;
+import mirror.normalasm.client.sprite.ondemand.ICompiledChunkExpander;
 
 import java.util.Set;
 
 public class CensoredASM {
     // Simple hack to check if onDemandAnimatedTextures is enabled
-    private static final boolean LOADED = Loader.isModLoaded("loliasm") && IAnimatedSpriteActivator.class.isAssignableFrom(TextureAtlasSprite.class);
+    private static final boolean LOADED = Loader.isModLoaded("normalasm") && IAnimatedSpriteActivator.class.isAssignableFrom(TextureAtlasSprite.class);
 
     public static void startCapturingChunkTextures() {
         if(!LOADED)

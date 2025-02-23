@@ -45,6 +45,7 @@ dependencies {
     buildDependencies fg.deobf('curse.maven:FluidloggedAPI-485654:3956311')
     buildDependencies fg.deobf('curse.maven:CubicChunks-292243:3546640')
     buildDependencies fg.deobf('curse.maven:CensoredASM-460609:4800875')
+	buildDependencies fg.deobf('curse.maven:fermiumasm-971247:5346789')
 }
 
 minecraft {
