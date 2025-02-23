@@ -20,7 +20,7 @@ import meldexun.nothirium.util.VisibilitySet;
 import meldexun.nothirium.util.collection.Enum2ObjMap;
 import meldexun.nothirium.util.math.MathUtil;
 import meldexun.renderlib.util.Frustum;
-import meldexun.renderlib.util.memory.UnsafeByteBuffer;
+import meldexun.memoryutil.UnsafeByteBuffer;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 
 public abstract class AbstractRenderChunk implements IRenderChunk {

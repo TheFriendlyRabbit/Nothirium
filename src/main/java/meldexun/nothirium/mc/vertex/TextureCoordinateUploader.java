@@ -1,6 +1,6 @@
 package meldexun.nothirium.mc.vertex;
 
-import meldexun.matrixutil.UnsafeUtil;
+import meldexun.memoryutil.UnsafeUtil;
 import meldexun.nothirium.mc.integration.CensoredASM;
 import net.minecraft.client.renderer.vertex.VertexFormatElement;
 import sun.misc.Unsafe;
